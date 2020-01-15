@@ -1,0 +1,65 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+ 
+<h1 style="color:	Magenta">Nofar Album</h1>
+<h3>{{ message }}</h3>
+<h1>טבלה בנושא סרטים</h1>
+<style type="text/css">
+    body {
+        background-color: AliceBlue;
+    }
+</style>
+
+
+<style>
+    table, td, th {
+        border: 1px solid black;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th {
+        height: 50px;
+    }
+</style>
+<table>
+
+
+
+    <tr>
+        <td>
+            <img src="http://albums.tapuz.co.il/mfhp-webbuilder/6/6/8/8/804890019.jpg" width="400" height="500">
+
+        </td>
+        <td>
+            <img src="https://upload.wikimedia.org/wikipedia/he/8/8c/%D7%9B%D7%A8%D7%96%D7%AA_%D7%A1%D7%A8%D7%98_%D7%94%D7%9E%D7%95%D7%A1%D7%93_2019.jpg" width="400" height="500">
+        </td>
+        <td>
+            <img src="http://cinemascope.mako.co.il/wp-content/uploads/dd51.jpg" width="400" height="500">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://www.movieland-cinema.co.il/cache/w_283,h_407,mode_crop/%D7%A7%D7%95%D7%9C%D7%99%D7%A0%D7%99%20%D7%A4%D7%95%D7%A1%D7%98%D7%A8%20%D7%90%D7%AA%D7%A8.jpg" width="400" height="500">
+            
+        </td>
+        <td>
+            <img src="https://www.seret.co.il/images/movies/TeenSpirit/TeenSpirit1.jpg" width="400" height="500">
+
+
+        </td>
+        <td>
+            <img src="http://moridim.me/images/large/433.jpg" width="400" height="500">
+
+
+
+        </td>
+    </tr>
+</table>
+
+            {% endblock %}
